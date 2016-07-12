@@ -1,0 +1,19 @@
+"Brandon"
+
+"Brandon".length
+
+3+4
+
+9999*9393
+
+
+"cake".length
+
+confirm("Hi")
+confirm("Confirm box")
+
+prompt("What is your name?")
+
+"A string with at least 3 words".length
+
+
