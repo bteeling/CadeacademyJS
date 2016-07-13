@@ -52,3 +52,53 @@ if (10 === 10) {
 } else {
     console.log("You got a false!");
 }
+
+if ("Jon".length * 2 / (2+1) === 2 )
+{
+    console.log("The answer makes sense!");
+} 
+else {
+    console.log("Error Error Error")
+}
+
+console.log(14%3)
+console.log(99%8)
+console.log(11%3)
+
+if( 100%2 === 0 ) {
+    console.log("The first number is even");
+} else {
+    console.log("The first number is odd");
+}
+
+"wonderful day".substring(3,7)
+
+console.log("January".substring(0,3))
+console.log("Melbourne is great".substring(0,13))
+console.log("Hamburgers".substring(3,10))
+
+var myAge = 22;
+console.log(myAge);
+
+var myCountry = "United States";
+console.log(myCountry.length );
+console.log(myCountry.substring(0,3) );
+
+var myName = "Brandon";
+console.log(myName);
+myName = myName.substring(0,2);
+console.log(myName);
+
+var myColor = "green";
+console.log(myColor.length);
+
+if(1===2){
+    console.log("Hi");
+}
+else{
+    console.log("I finished my first course!");
+}
+
+
+
+
