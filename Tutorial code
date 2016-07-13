@@ -39,3 +39,16 @@ if (999999 === 2 ) {
 else {
     console.log("Hi")
 }
+
+if(3==2){
+    console.log("The condition is true")
+    }
+    else{
+        console.log("The condition is false")
+        }
+        
+if (10 === 10) {
+    console.log("You got a true!");
+} else {
+    console.log("You got a false!");
+}
