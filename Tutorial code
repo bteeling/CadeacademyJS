@@ -7,6 +7,7 @@
 9999*9393
 
 
+
 "cake".length
 
 confirm("Hi")
@@ -16,4 +17,25 @@ prompt("What is your name?")
 
 "A string with at least 3 words".length
 
+"I'm coding like a champ".length>10
 
+console.log(2 * 5)
+console.log("Hello")
+
+console.log(15 > 4);
+console.log("Brandon".length <= 122);
+console.log("A String".length >= 1);
+console.log(8*2 === 16);
+console.log(100 !== 200);
+console.log(50 < 70);
+
+if (7 > 1 ) {
+    console.log("7 is greater than 1");
+}
+
+if (999999 === 2 ) {
+    console.log("Will not run")
+}
+else {
+    console.log("Hi")
+}
