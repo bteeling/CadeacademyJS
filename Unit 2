@@ -27,3 +27,50 @@ var greeting = function (name) {
     console.log(name);
 };
 greeting("Brandon");     
+
+var orangeCost = function(cost){
+    console.log(cost * 5);
+};
+orangeCost(5);
+
+var quarter = function(number){
+    return number / 4;
+}
+if (quarter(12) % 3 === 0 ) {
+  console.log("The statement is true");
+} else {
+  console.log("The statement is false");
+}
+
+var perimeterBox = function(length, width){
+    return (length * 2) + (width * 2);
+}
+perimeterBox(50,70);
+
+var my_number = 7; //this has global scope
+var timesTwo = function(number) {
+    var my_number = number * 2;
+    console.log("Inside the function my_number is: ");
+    console.log(my_number);
+}; 
+timesTwo(7);
+console.log("Outside the function my_number is: ")
+console.log(my_number);
+
+var nameString = function (name) {
+	return "Hi, I am " + name;	
+};
+console.log(nameString("Brandon"));
+
+var sleepCheck = function (numHours) {
+    if (numHours>=8) {
+        return "You're getting plenty of sleep! Maybe even too       much!";
+    }
+    else {
+        return "Get some more shut eye!";
+        }
+}
+sleepCheck(10);
+sleepCheck(5);
+sleepCheck(8);
+
